@@ -1,9 +1,3 @@
-/*
-SISA
-- Perbaiki tampilan hello
-- Baru lanjutkan auntentikasi Google
-
-*/
 import { useState, useEffect } from 'react';
 import { createClient } from '@supabase/supabase-js';
 import { Auth } from '@supabase/auth-ui-react';
@@ -98,20 +92,3 @@ export default function App() {
   }
 }
 
-/*
-
-SOURCE 
-- https://blog.logrocket.com/authenticate-react-applications-supabase-auth/
-- https://dev.to/dabit3/10-minute-tutorial-full-stack-github-authentication-with-supabase-react-3c6b
-
-
-PROBLEM
-- Belum auth dengan Facebook dan google
-
-KONTRIBUSI
-- Ini kan baru github, klo google nanti tambah lagi variable .env dan const supabase
-
-- Perbaiki UI, Hapus email dan your password
-- TampilKAN nama user setelah login
-"Hello {user}"
-*/
