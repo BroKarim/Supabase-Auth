@@ -5,7 +5,6 @@ SISA
 
 */
 import { useState, useEffect } from 'react';
-// import { supabase } from './Client';
 import { createClient } from '@supabase/supabase-js';
 import { Auth } from '@supabase/auth-ui-react';
 
